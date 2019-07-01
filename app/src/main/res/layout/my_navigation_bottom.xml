@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/badge1"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:layout_gravity="end"
+            android:background="@drawable/badge"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/img1"
+            app:layout_constraintEnd_toEndOf="@id/img1"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="@id/img1"
+            app:layout_constraintTop_toTopOf="@id/img1"
+            app:layout_constraintVertical_bias="0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/badge2"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:layout_gravity="end"
+            android:background="@drawable/badge"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/img2"
+            app:layout_constraintEnd_toEndOf="@id/img2"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="@id/img2"
+            app:layout_constraintTop_toTopOf="@id/img2"
+            app:layout_constraintVertical_bias="0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/badge3"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:layout_gravity="end"
+            android:background="@drawable/badge"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/img3"
+            app:layout_constraintEnd_toEndOf="@id/img3"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="@id/img3"
+            app:layout_constraintTop_toTopOf="@id/img3"
+            app:layout_constraintVertical_bias="0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/badge4"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:layout_gravity="end"
+            android:background="@drawable/badge"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/img4"
+            app:layout_constraintEnd_toEndOf="@id/img4"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="@id/img4"
+            app:layout_constraintTop_toTopOf="@id/img4"
+            app:layout_constraintVertical_bias="0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/badge5"
+            android:layout_width="@dimen/badge_size"
+            android:layout_height="@dimen/badge_size"
+            android:layout_gravity="end"
+            android:background="@drawable/badge"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/img5"
+            app:layout_constraintEnd_toEndOf="@id/img5"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="@id/img5"
+            app:layout_constraintTop_toTopOf="@id/img5"
+            app:layout_constraintVertical_bias="0" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
